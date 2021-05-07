@@ -1,0 +1,6 @@
+#date{ position: relative; z-index: 1000; }
+.cont{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
