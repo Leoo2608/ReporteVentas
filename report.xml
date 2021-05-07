@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ventas>
+  <venta>
+    <nombres>Daniel Enrique</nombres>
+    <apellidos>Rojas Yaurima</apellidos>
+    <fecha>2021-05-01</fecha>
+    <tipodoc>Factura</tipodoc>
+    <numdoc>7120000123</numdoc>
+    <nomprod>Bolsa Pan</nomprod>
+    <cantidad>3</cantidad>
+    <precio>3.60</precio>
+  </venta>
+</ventas>

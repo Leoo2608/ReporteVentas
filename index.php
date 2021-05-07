@@ -28,7 +28,7 @@
                     </select>
                 </div>
                 <div class="form-group col-md-3 mt-4">
-                    <button type="button" class="btn btn-danger">Generar Reporte</button>
+                    <button type="button" id="botoncito" class="btn btn-danger" onclick="">Generar Reporte</button>
                 </div>        
             </form>      
     </section>
@@ -40,7 +40,7 @@
     <!-- Bootstrap Date-Picker Plugin -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
-    
+    <script type="text/javascript" src="/functions.js"></script> 
     
     <script>
         $(document).ready(function(){
@@ -55,5 +55,6 @@
         date_input.datepicker(options);
         })
     </script>
+    
 </body>
 </html>
