@@ -1,4 +1,8 @@
 <?php
+    $id = $_POST['id'];
+    $f1 = $_POST['f1'];
+    $f2 = $_POST['f2'];
+    
     function generarReporte($entradaid, $fecha1, $fecha2){
         require "conexion.php";
         $resp = mysqli_query($conex, 
@@ -49,7 +53,8 @@
             echo "error...";
         }
     }
-    generarReporte(1, '2021-05-07', '2021-05-09');
+    generarReporte($id, $f1, $f2);
+    //generarReporte(1, '2021-05-07', '2021-05-09');
 
     //1 -- '2021-05-06'  -- -- '2021-05-09'
     ?>
